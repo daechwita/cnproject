@@ -1,0 +1,46 @@
+body{
+    margin:0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    height: 70px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#lelogo{
+    width:50px;
+    margin:10px;
+}
+
+nav a{
+    margin: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    text-align: center;
+    width:40vw;
+    padding:15px;
+    margin:10px;
+}
+
+.box1{background-color: darkgray;}
+.box2{background-color: darkgray;}

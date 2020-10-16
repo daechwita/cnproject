@@ -1,0 +1,176 @@
+blockquote{
+    color: #89023E;
+    font-size:20px;
+
+}
+
+p {
+    color:#FFD9DA ;
+}
+
+.colour {
+    color:#FFD9DA ;
+
+}
+
+.example{
+	color: #0bbadd;
+	font-size: 40px;
+	text-shadow: -1px 1px 0 #1B2021,
+				  1px 1px 0 #1B2021,
+				 1px -1px 0 #1B2021;
+}
+
+
+*{
+    background-color: #30343F;
+}
+
+/*
+*{
+    background-color: rgba(64, 78,77,0.15);
+}
+*/
+
+.maintxt{
+    color: #EA638C;
+}
+
+.greyy{
+  color: #EA638C;
+}
+
+
+.toe{
+    color: #EA638C;
+    font-size:30px;
+}
+
+.centre{
+    text-align: center;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 49%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box{
+    text-align: center;
+    width:20vw;
+    padding:15px;
+    margin:10px;
+    border-radius: 10px /*round edge*/
+}
+
+
+.box1{background-color: #FFD9DA;}
+.box2{background-color: #FFD9DA;}
+
+a:hover, a:active {
+    background-color: #505155; /*hover hyperlink */
+  }
+
+.button {
+    background-color: #FFD9DA; /* Green */
+    color: #89023E;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    float: none;
+  }
+
+  input[type=text], select, textarea {
+    width: 35%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  input[type=submit] {
+    background-color: #89023E;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  details > summary {
+    padding: 20px;
+    width: 1300px;
+    background-color: #89023E;
+    border-style: solid;
+    border-width: 0px;
+    cursor: pointer;
+  }
+
+  details > p {
+    background-color: #30343F;
+    padding: 4px;
+    margin: 0;
+    box-shadow: 1px 1px 2px #bbbbbb;
+  }
+
+  details summary::-webkit-details-marker {
+    display:none; /*hide ugly arrow*/
+  }
+
+
+
+  .textt {
+    color: #918586;
+    background-color: #89023E;
+
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container {
+    position: relative;
+  }
+    
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #89023E;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
